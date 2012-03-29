@@ -2,9 +2,9 @@ package effective.finalize;
 
 /**
  * @author isensen
- * 覆写超类的终结方法
+ * 锟斤拷写锟斤拷锟斤拷锟斤拷锟秸结方锟斤拷
  */
-public class OverrideFinalize {
+public class OverrideFinalize_2 {
 	
 	//Manual finalizer chaining
 	@Override
@@ -12,10 +12,10 @@ public class OverrideFinalize {
 		
 		try {
 			//TODO Finalize subclass state
-			//覆写超类的终结方法
+			//锟斤拷写锟斤拷锟斤拷锟斤拷锟秸结方锟斤拷
 		}finally{
-			//这样即使覆写的终结方法抛出异常，超类的终结方法也会被正确执行
-			//（不然永远不会被执行） 
+			//锟斤拷锟斤拷锟斤拷使锟斤拷写锟斤拷锟秸结方锟斤拷锟阶筹拷锟届常锟斤拷锟斤拷锟斤拷锟斤拷锟秸结方锟斤拷也锟结被锟斤拷确执锟斤拷
+			//锟斤拷锟斤拷然锟斤拷远锟斤拷锟结被执锟叫ｏ拷 
 			super.finalize();
 		}
 		
